@@ -4,7 +4,7 @@ it includes file extensions for files you do not want to put in source control.(
 
 • What does fast-forward in Git mean?
 Fast-forward in Git means when you merge a branch that is ahead of the checked-out branch.
-It updates head pointer in a way that present value is a direct descendent of prior value.
+It updates head pointer in a way that present value is a direct descendent of prior value
 
 • Why should you have different branches?
 One team member's changes shouldnt affect the other teammate's. So, we need to create different branches for each member/issue and have them work on it. Once done, we can test with master branch code(by merging master branch to our branch; test the code) and merge our branch onto master.
